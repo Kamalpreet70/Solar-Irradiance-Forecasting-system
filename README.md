@@ -46,15 +46,16 @@ We propose using a hexagonal grid system to capture the spatial variability of s
 distortions compared to traditional square grids. Each hexagon represents a distinct spatial unit where data is collected and analyzed, ensuring better spatial feature
 extraction. This approach enables more accurate and reliable forecasts by more effectively capturing the intricate spatial patterns of solar irradiance.
 
+
+##  Conclusions and Future Scope
+- Advances in forecasting accuracy can yield economic benefits, such as reduced operational costs for energy providers and increased investment in
+solar energy projects.
+- Enhanced solar energy utilization promotes environmental sustainability by decreasing reliance on fossil fuels and lowering greenhouse gas.
+
 ## Installation
 
 To install the dependencies, run:
 ```sh
 pip install -r requirements.txt
-
-##  Conclusions and Future Scope
-- Advances in forecasting accuracy can yield economic benefits, such as reduced operational costs for energy providers and increased investment in
-solar energy projects.
-- Enhanced solar energy utilization promotes environmental sustainability by decreasing reliance on fossil fuels and lowering greenhouse gas
 
 
