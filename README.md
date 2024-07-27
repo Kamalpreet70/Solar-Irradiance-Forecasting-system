@@ -1,6 +1,9 @@
 # Solar Irradiance Forecasting System
 
-This project forecasts solar irradiance using various machine-learning models.
+This project forecasts solar irradiance using various machine-learning models. Our research develops a CNN-LSTM with Bayesian optimization using an attention mechanism
+for day-ahead hourly solar irradiance forecasting. This model integrates various meteorological attributes and spatial relationships to enhance accuracy, leveraging spatial and
+temporal data to provide reliable forecasts.
+
 
 ## Data
 For this project, solar irradiance data was collected from NASA's POWER PROJECT, specifically tailored to the geographical location of Jalandhar, Punjab, India. 
@@ -48,3 +51,10 @@ extraction. This approach enables more accurate and reliable forecasts by more e
 To install the dependencies, run:
 ```sh
 pip install -r requirements.txt
+
+##  Conclusions and Future Scope
+- Advances in forecasting accuracy can yield economic benefits, such as reduced operational costs for energy providers and increased investment in
+solar energy projects.
+- Enhanced solar energy utilization promotes environmental sustainability by decreasing reliance on fossil fuels and lowering greenhouse gas
+
+
