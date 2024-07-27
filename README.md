@@ -3,8 +3,11 @@
 This project forecasts solar irradiance using various machine-learning models.
 
 ## Data
-
-The data is from NIT Jalandhar and includes the following features:
+For this project, solar irradiance data was collected from NASA's POWER PROJECT, specifically tailored to the geographical location of Jalandhar, Punjab, India. 
+The dataset encompasses historical solar irradiance measurements spanning several years, providing a rich source of information for model development and
+evaluation. Additionally, meteorological data such as temperature, humidity, wind speed, and atmospheric pressure were obtained to incorporate environmental factors
+influencing solar irradiance variability in the region
+This includes the following features:
 - Temperature
 - Pressure
 - Relative Humidity
@@ -36,7 +39,9 @@ The following models are implemented:
 
 ## Hexagon Grid System
 
-The hexagon grid system generates hexagon rings around a target location. 
+We propose using a hexagonal grid system to capture the spatial variability of solar irradiance effectively. Hexagons provide more uniform coverage and reduce spatial
+distortions compared to traditional square grids. Each hexagon represents a distinct spatial unit where data is collected and analyzed, ensuring better spatial feature
+extraction. This approach enables more accurate and reliable forecasts by more effectively capturing the intricate spatial patterns of solar irradiance.
 
 ## Installation
 
