@@ -17,7 +17,6 @@ The data is from NIT Jalandhar and includes the following features:
 
 The target variable is Global Horizontal Irradiance (GHI).
 
-Data files are located in the `data/` directory.
 
 ## Target Location
 
@@ -34,11 +33,10 @@ The following models are implemented:
 - CNN with Cross-Validation
 - LSTM-based RNN
 
-The model code is located in the `src/` directory.
 
 ## Hexagon Grid System
 
-The hexagon grid system generates hexagon rings around a target location. The code is in `src/hexagon_grid_system.py`.
+The hexagon grid system generates hexagon rings around a target location. 
 
 ## Installation
 
